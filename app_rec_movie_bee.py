@@ -3,7 +3,7 @@ import streamlit as st
 from surprise import SVD
 
 # Load the saved model and data
-with open('66130701921recommendation_movie_svd.pkl', 'rb') as file:
+with open('66130701921_recommendation_movie_svd.pkl', 'rb') as file:
     svd_model, movie_ratings, movies = pickle.load(file)
 
 # Streamlit UI
